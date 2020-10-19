@@ -50,7 +50,7 @@ do
    i=$(($i+1))
 done
 
-:w and :q                       "Save and exit"
+:wq                       "Save and exit"
 bash test.sh                    "Run the bash script"
 ls                              "displays the contents of the working directory)."
 ```
